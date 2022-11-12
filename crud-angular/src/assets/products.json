@@ -1,0 +1,20 @@
+﻿[
+  {
+    "id": 1,
+    "name": "Smartphone",
+    "category": "Electronics",
+    "price": 1800
+  },
+  {
+    "id": 2,
+    "name": "Coffee",
+    "category": "Grocery",
+    "price": 35
+  },
+  {
+    "id": 3,
+    "name": "Bike",
+    "category": "Sports",
+    "price": 400
+  }
+]
