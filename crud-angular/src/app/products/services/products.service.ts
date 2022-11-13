@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { delay, first, tap, timeout } from 'rxjs';
+import { delay, first, tap } from 'rxjs';
 
 import { Product } from './../model/product';
 
@@ -19,6 +19,6 @@ export class ProductsService {
         first(),
         delay(3000),
         tap(products => console.log(products))
-      );
+        );
   }
 }
