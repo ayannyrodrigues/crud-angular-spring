@@ -11,7 +11,12 @@
 
       <ng-container matColumnDef="category">
         <th mat-header-cell *matHeaderCellDef>Category</th>
-        <td mat-cell *matCellDef="let product">{{ product.category }}</td>
+        <td mat-cell *matCellDef="let product">
+          {{ product.category }}
+          <mat-icon aria-hidden="false" aria-label="Category products">{{
+            product.category | category
+          }}</mat-icon>
+        </td>
       </ng-container>
 
       <ng-container matColumnDef="price">
